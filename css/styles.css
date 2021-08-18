@@ -335,6 +335,7 @@ address {
 
 .team-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .team-item {
@@ -346,9 +347,6 @@ address {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-item:not(:last-child) {
-  margin-right: 30px;
-}
 
 .team-person {
   padding: 30px 0px;
